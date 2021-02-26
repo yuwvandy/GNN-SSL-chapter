@@ -1,4 +1,4 @@
-# SSL_chapter
+# SSL-chapter
 Summary of the recent progress on self-supervised learning in graph neural networks. In detail, the following works are currently covered:
 
 * [COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking](https://arxiv.org/pdf/2012.11336.pdf) (Arxiv 2020) [[**Summary**]](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/cora.py).
