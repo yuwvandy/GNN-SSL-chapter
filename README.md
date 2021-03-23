@@ -1,12 +1,21 @@
 #  A collection of SSL pretext tasks used in GNNs
 Categorization and summarization of the state-of-the-art Self-supervised Learning (SSL) on Graph Neural Networks (GNNs).
 
-## Categorization
+
+# Contents
+- __[Categorization](#Categorization)__
+- __[Summarization](#Summarization)__
+  - [Node level pretext tasks](#Node level pretext tasks)
+  - [Algorithm Flowchart](#Flowchart)
+- __[Tutorial](#Tutorial)__
+- __[Example](#Example)__
+
+# Categorization
 Pretext tasks are constructed by leveraging different types of supervision information coming from different components of graphs. Based on the components that generate the supervision information, pretext tasks that are prevalent in the literature are categorized into node-level, graph-level and node-graph level. In completing node-level and graph-level pretext tasks, three types of information can be leveraged: graph structure, node features, or hybrid, where the latter combines the information from node features, graph structure, and even information from the known training labels. We summarize the categorization of pretext tasks as a tree where each leaf node represents a specific type of pretext tasks in the following figure while also including the corresponding [**references**](ssl_category_tree.pdf).
 ![category_tree](images/ssl_category_tree.png)
 
-## Summarization
-### Node level pretext tasks
+# Summarization
+## Node level pretext tasks
 For node-level pretext tasks, methods have been developed to use easily-accessible data to generate pseudo labels for each node or relationships for each pair of nodes. In this way, the GNNs are then trained to be predictive of the %generated 
 pseudo labels or to keep the equivalence between the node embeddings and the original node relationships.
 
@@ -19,7 +28,7 @@ Node features are another important information that can be leveraged to provide
 #### Hybrid
 Instead of employing only the topology or only the feature information as the extra supervision, some pretext tasks combine them together as a hybrid supervision, or even utilize information from the known training labels.
 
-### Graph level pretext tasks
+## Graph level pretext tasks
 After having just presented the node-level SSL pretext tasks, in this section we focus on the graph-level SSL pretext tasks where we desire the node embeddings coming from the GNNs to encode information of graph-level properties.
 
 #### Structure based
