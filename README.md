@@ -58,7 +58,7 @@ After having just presented the node-level SSL pretext tasks, in this section we
 * [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/pdf/2006.10141.pdf) (Arxiv 2020) [[**Summary**]](summary/Wei_deep.pdf) [[**Code**]](https://github.com/ChandlerBang/SelfTask-GNN).
 * [Self-Supervised Graph Representation Learning via Global Context Prediction](https://arxiv.org/pdf/2003.01604.pdf) (Openreview 2020) [[**Summary**]](summary/global_context_prediction.pdf).
 * [How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision](https://openreview.net/pdf?id=Wi5KUNlqWty) (ICLR 2021) [[**Summary**]](summary/friendly_neighborhood.pdf).
-* [ Motif-Driven Contrastive Learning of Graph Representations](https://arxiv.org/pdf/2012.12533.pdf) (Openreview 2020) [[**Summary**]](summary/motif-drive.pdf).
+* [ Motif-Driven Contrastive Learning of Graph Representations](https://arxiv.org/pdf/2012.12533.pdf) (Openreview 2020) [[**Summary**]](summary/motif_drive.pdf).
 * [ GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training](https://arxiv.org/pdf/2006.09963.pdf) (KDD 2020) [[**Summary**]](summary/GCC.pdf) [[**Code**]](https://github.com/THUDM/GCC).
 * [ TopoTER: Unsupervised Learning of Topology Transformation Equivariant Representations](https://openreview.net/pdf?id=9az9VKjOx00) (Openreview 2020) [[**Summary**]](summary/topoTER.pdf).
 
