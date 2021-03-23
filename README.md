@@ -87,3 +87,6 @@ All the above pretext tasks are designed based on either the node or the graph l
 * [ Can Graph Neural Networks Go "Online"? An Analysis of Pretraining and Inference](https://arxiv.org/pdf/1905.06018.pdf) (ICLR 2019 workshop) [[**Summary**]](summary/online.pdf).
 
 ## Reference
+
+## Acknowledge
+Most of resources in this collection are partially maintained by [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn). We sincerely thank our collaborator Wei from Michigen State University who provided insight and expertise that greatly assisted the research. For the latest work on Self-supervised learning on Graph Neural Networks, please also refer to [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn).
