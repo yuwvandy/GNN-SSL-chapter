@@ -7,7 +7,12 @@ Categorization and summarization of the state-of-the-art Self-supervised Learnin
 - __[Summarization](#Summarization)__
   - __[Node-level](#Node-level)__
     - [Structure-based](#Structure-based)
-  - [Graph-level](#Node-level)
+    - [Feature-based](#Feature-based)
+    - [Hybrid](#Hybrid)
+  - __[Graph-level](#Node-level)__
+    - [Structure-based](#Structure-based)
+    - [Feature-based](#Feature-based)
+    - [Hybrid](#Hybrid)
   - [Node-graph-level](#Node-graph-level)
 - __[Application](#Application)__
 - __[Reference](#Reference)__
