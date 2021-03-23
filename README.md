@@ -13,7 +13,7 @@ Categorization and summarization of the state-of-the-art Self-supervised Learnin
     - [Graph-structure-based](#Graph-structure-based)
     - [Graph-feature-based](#Graph-feature-based)
     - [Graph-hybrid](#Graph-hybrid)
-  - [Node-graph-level](#Node-graph-level)
+  - __[Node-graph-level](#Node-graph-level)__
 - __[Application](#Application)__
 - __[Reference](#Reference)__
 
