@@ -53,7 +53,7 @@ Instead of employing only the topology or only the feature information as the ex
 After having just presented the node-level SSL pretext tasks, in this section we focus on the graph-level SSL pretext tasks where we desire the node embeddings coming from the GNNs to encode information of graph-level properties.
 
 #### Graph-structure-based
-* [Self-supervised Training of Graph Convolutional Networks](https://arxiv.org/pdf/2006.02380.pdf) (Arxiv 2020) [[**Summary**]]()
+* [Self-supervised Training of Graph Convolutional Networks](https://arxiv.org/pdf/2006.02380.pdf) (Arxiv 2020) [[**Summary**]](summary/Qikui.pdf)
 * [SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks](https://openreview.net/pdf?id=a5KvtsZ14ev) (Openreview 2020) [[**Summary**]](summary/Qikui.pdf).
 * [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/pdf/2006.10141.pdf) (Arxiv 2020) [[**Summary**]](summary/Wei_deep.pdf) [[**Code**]](https://github.com/ChandlerBang/SelfTask-GNN).
 * [Self-Supervised Graph Representation Learning via Global Context Prediction](https://arxiv.org/pdf/2003.01604.pdf) (Openreview 2020) [[**Summary**]](summary/global_context_prediction.pdf).
