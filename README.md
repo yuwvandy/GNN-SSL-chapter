@@ -24,8 +24,7 @@ Pretext tasks are constructed by leveraging different types of supervision infor
 
 # Summarization
 ## Node-level
-For node-level pretext tasks, methods have been developed to use easily-accessible data to generate pseudo labels for each node or relationships for each pair of nodes. In this way, the GNNs are then trained to be predictive of the %generated 
-pseudo labels or to keep the equivalence between the node embeddings and the original node relationships.
+For node-level pretext tasks, methods have been developed to use easily-accessible data to generate pseudo labels for each node or relationships for each pair of nodes. In this way, the GNNs are then trained to be predictive of the generated pseudo labels or to keep the equivalence between the node embeddings and the original node relationships.
 
 #### Node-structure-based
 Different nodes have different structure properties in graph topology, which can be measured by the node degree, centrality, node partition, etc. Thus, for structure-based pretext tasks at the node-level, we expect to align node embeddings extracted from the GNNs with their structure properties, in an attempt to ensure this information is preserved while GNNs learn the node embeddings.
@@ -35,6 +34,8 @@ Node features are another important information that can be leveraged to provide
 
 #### Node-hybrid
 Instead of employing only the topology or only the feature information as the extra supervision, some pretext tasks combine them together as a hybrid supervision, or even utilize information from the known training labels.
+
+* [Distance-wise Graph Contrastive Learning](https://arxiv.org/pdf/2012.07437.pdf) (Arxiv 2020) [[**Summary**]]().
 
 ## Graph-level
 After having just presented the node-level SSL pretext tasks, in this section we focus on the graph-level SSL pretext tasks where we desire the node embeddings coming from the GNNs to encode information of graph-level properties.
@@ -52,12 +53,13 @@ Typically, graphs does not come with any feature information and here the graph-
 All the above pretext tasks are designed based on either the node or the graph level supervision. However, there is another final line of research combining these two sources of supervision to design pretext tasks, which we summarize in this section.
 
 ## Application
+* [COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking](https://arxiv.org/pdf/2012.11336.pdf) (Arxiv 2020) [[**Summary**]]().
+* [Pre-Training Graph Neural Networks for Cold-Start Users and Items Representation](https://arxiv.org/pdf/2012.07064.pdf) (WSDM 2021) [[**Summary**]]() [[**Code**]](https://github.com/jerryhao66/Pretrain-Recsys).
 
 ## Reference
 
-* [COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking](https://arxiv.org/pdf/2012.11336.pdf) (Arxiv 2020) [[**Summary**]]().
-* [Distance-wise Graph Contrastive Learning](https://arxiv.org/pdf/2012.07437.pdf) (Arxiv 2020) [[**Summary**]]().
-* [Pre-Training Graph Neural Networks for Cold-Start Users and Items Representation](https://arxiv.org/pdf/2012.07064.pdf) (WSDM 2021) [[**Summary**]]() [[**Code**]](https://github.com/jerryhao66/Pretrain-Recsys).
+
+
 * [Deep Graph Contrastive Representation Learning](https://arxiv.org/pdf/2006.04131.pdf) (Arxiv 2020) [[**Summary**]]() [[**Code**]](https://github.com/CRIPAC-DIG/GRACE).
 * [Graph Contrastive Learning with Adaptive Augmentation](https://arxiv.org/pdf/2010.14945.pdf) (WWW 2021) [[**Summary**]]()
 * [Self-supervised Training of Graph Convolutional Networks](https://arxiv.org/pdf/2006.02380.pdf) (Arxiv 2020) [[**Summary**]]()
