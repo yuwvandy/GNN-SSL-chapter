@@ -5,11 +5,13 @@ Categorization and summarization of the state-of-the-art Self-supervised Learnin
 # Contents
 - __[Categorization](#Categorization)__
 - __[Summarization](#Summarization)__
-  - [Node-level](#Node-level)
+  - __[Node-level](#Node-level)__
+    - [Structure-based](#Structure-based)
   - [Graph-level](#Node-level)
   - [Node-graph-level](#Node-graph-level)
 - __[Application](#Application)__
 - __[Reference](#Reference)__
+
 
 # Categorization
 Pretext tasks are constructed by leveraging different types of supervision information coming from different components of graphs. Based on the components that generate the supervision information, pretext tasks that are prevalent in the literature are categorized into node-level, graph-level and node-graph level. In completing node-level and graph-level pretext tasks, three types of information can be leveraged: graph structure, node features, or hybrid, where the latter combines the information from node features, graph structure, and even information from the known training labels. We summarize the categorization of pretext tasks as a tree where each leaf node represents a specific type of pretext tasks in the following figure while also including the corresponding [**references**](ssl_category_tree.pdf).
