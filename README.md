@@ -31,7 +31,7 @@ Different nodes have different structure properties in graph topology, which can
 
 * [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/pdf/2006.10141.pdf) (Arxiv 2020) [[**Summary**]](summary/Wei_deep.pdf) [[**Code**]](https://github.com/ChandlerBang/SelfTask-GNN).
 * [When Does Self-Supervision Help Graph Convolutional Networks?](https://arxiv.org/pdf/2006.09136.pdf) (ICML 2020) [[**Summary**]](summary/you_when.pdf) [[**Code**]](https://github.com/Shen-Lab/SS-GCNs).
-* [Pre-Training Graph Neural Networks for Generic Structural Feature Extraction](https://arxiv.org/pdf/1905.13728.pdf) (ICLR 2019 workshop) [[**Summary**]](summary/genetic_graph_extraction).
+* [Pre-Training Graph Neural Networks for Generic Structural Feature Extraction](https://arxiv.org/pdf/1905.13728.pdf) (ICLR 2019 workshop) [[**Summary**]](summary/genetic_graph_extraction.pdf).
 
 #### Node-feature-based
 Node features are another important information that can be leveraged to provide extra supervision.
