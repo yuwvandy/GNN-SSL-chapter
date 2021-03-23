@@ -5,17 +5,17 @@ Categorization and summarization of the state-of-the-art Self-supervised Learnin
 # Contents
 - __[Categorization](#Categorization)__
 - __[Summarization](#Summarization)__
-  - [Node level pretext tasks](#Node level pretext tasks)
+  - [Node-level](#Node-level)
   - [Algorithm Flowchart](#Flowchart)
-- __[Tutorial](#Tutorial)__
-- __[Example](#Example)__
+- __[Application](#Application)__
+- __[Reference](#Reference)__
 
 # Categorization
 Pretext tasks are constructed by leveraging different types of supervision information coming from different components of graphs. Based on the components that generate the supervision information, pretext tasks that are prevalent in the literature are categorized into node-level, graph-level and node-graph level. In completing node-level and graph-level pretext tasks, three types of information can be leveraged: graph structure, node features, or hybrid, where the latter combines the information from node features, graph structure, and even information from the known training labels. We summarize the categorization of pretext tasks as a tree where each leaf node represents a specific type of pretext tasks in the following figure while also including the corresponding [**references**](ssl_category_tree.pdf).
 ![category_tree](images/ssl_category_tree.png)
 
 # Summarization
-## Node level pretext tasks
+## Node-level
 For node-level pretext tasks, methods have been developed to use easily-accessible data to generate pseudo labels for each node or relationships for each pair of nodes. In this way, the GNNs are then trained to be predictive of the %generated 
 pseudo labels or to keep the equivalence between the node embeddings and the original node relationships.
 
@@ -43,7 +43,9 @@ Typically, graphs does not come with any feature information and here the graph-
 ### Node-graph level pretext tasks
 All the above pretext tasks are designed based on either the node or the graph level supervision. However, there is another final line of research combining these two sources of supervision to design pretext tasks, which we summarize in this section.
 
-### Practical application of applying SSL on GNNs
+## Application
+
+## Reference
 
 * [COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking](https://arxiv.org/pdf/2012.11336.pdf) (Arxiv 2020) [[**Summary**]]().
 * [Distance-wise Graph Contrastive Learning](https://arxiv.org/pdf/2012.07437.pdf) (Arxiv 2020) [[**Summary**]]().
