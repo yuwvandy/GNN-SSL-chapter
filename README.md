@@ -6,7 +6,8 @@ Categorization and summarization of the state-of-the-art Self-supervised Learnin
 - __[Categorization](#Categorization)__
 - __[Summarization](#Summarization)__
   - [Node-level](#Node-level)
-  - [Algorithm Flowchart](#Flowchart)
+  - [Graph-level](#Node-level)
+  - [Node-graph-level](#Node-graph-level)
 - __[Application](#Application)__
 - __[Reference](#Reference)__
 
@@ -19,28 +20,28 @@ Pretext tasks are constructed by leveraging different types of supervision infor
 For node-level pretext tasks, methods have been developed to use easily-accessible data to generate pseudo labels for each node or relationships for each pair of nodes. In this way, the GNNs are then trained to be predictive of the %generated 
 pseudo labels or to keep the equivalence between the node embeddings and the original node relationships.
 
-#### Structure based
+#### Structure-based
 Different nodes have different structure properties in graph topology, which can be measured by the node degree, centrality, node partition, etc. Thus, for structure-based pretext tasks at the node-level, we expect to align node embeddings extracted from the GNNs with their structure properties, in an attempt to ensure this information is preserved while GNNs learn the node embeddings.
 
-#### Feature based
+#### Feature-based
 Node features are another important information that can be leveraged to provide extra supervision.
 
 #### Hybrid
 Instead of employing only the topology or only the feature information as the extra supervision, some pretext tasks combine them together as a hybrid supervision, or even utilize information from the known training labels.
 
-## Graph level pretext tasks
+## Graph-level
 After having just presented the node-level SSL pretext tasks, in this section we focus on the graph-level SSL pretext tasks where we desire the node embeddings coming from the GNNs to encode information of graph-level properties.
 
-#### Structure based
+#### Structure-based
 
-#### Feature based
+#### Feature-based
 Typically, graphs does not come with any feature information and here the graph-level features refer to the graph embeddings obtained after applying a pooling layer on all node embeddings from GNNs.
 
 #### Hybrid
 
 
 
-### Node-graph level pretext tasks
+### Node-graph-level
 All the above pretext tasks are designed based on either the node or the graph level supervision. However, there is another final line of research combining these two sources of supervision to design pretext tasks, which we summarize in this section.
 
 ## Application
