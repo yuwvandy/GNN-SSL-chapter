@@ -89,4 +89,4 @@ All the above pretext tasks are designed based on either the node or the graph l
 ## Reference
 
 ## Acknowledge
-Most of resources in this collection are partially maintained by [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn). We sincerely thank our collaborator Wei from Michigen State University who provided insight and expertise that greatly assisted the research. For the latest work on Self-supervised learning on Graph Neural Networks, please also refer to [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn).
+Most of resources in this collection are partially maintained by [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn). Please also refer to [**awesome-self-supervised-gnn**](https://github.com/ChandlerBang/awesome-self-supervised-gnn) for the most update-to-date 
