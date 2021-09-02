@@ -2,6 +2,7 @@
 Categorization and summarization of the state-of-the-art Self-supervised Learning (SSL) on Graph Neural Networks (GNNs).
 
 For more details, please refer to **our book chapter (link coming soon)**. If you find this useful and use it in your research, please temporarily cite our work as follows:
+![heatmap_citeseer](https://user-images.githubusercontent.com/53798810/131776213-bab0ebb8-f603-491b-9256-abbd2c92c99b.png)
 
     @inproceedings{wang2021gnnssl,
      author = {Wang, Yu and Jin, Wei and Derr, Tyler},
